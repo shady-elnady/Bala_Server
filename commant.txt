@@ -1,2 +1,6 @@
-composer require laravel/ui --dev
-php artisan ui bootstrap --auth
+Lrarvel-ui:
+    composer require laravel/ui --dev
+    php artisan ui bootstrap --auth
+E-Mail:
+    php artisan make:mail DemoMail
+    php artisan make:controller MailController
